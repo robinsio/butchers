@@ -1,0 +1,25 @@
+<div header user="user" active="'customer'"></div>
+
+<div class="container">
+    <div class="page-header">
+        <h1>{{customer.name}}
+            <button type="button" class="btn btn-default btn-xs" ng-click="viewCustomerDetailEdit(customer.id)">
+                <span class="glyphicon glyphicon-pencil"></span>
+            </button>
+        </h1>
+    </div>
+
+    <dl class="dl-horizontal">
+        <dt>Address</dt><dd>{{customer.firstLineAddress}}, {{customer.secondLineAddress}}</dd>
+        <dt>City</dt><dd>{{customer.city}}</dd>
+        <dt>Postcode</dt><dd>{{customer.postcode}}</dd>
+        <dt>Telephone</dt><dd>{{customer.phoneNumber}}</dd>
+    </dl>
+
+    <!-- No Data Found -->
+    <div ng-if="customers.$resolved == true && customers == null">
+        <h3>No Data Available</h3>
+    </div>
+</div>
+
+<div footer></div>

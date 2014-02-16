@@ -1,0 +1,3 @@
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jon Robins',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Steve Robins', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Nick Robins',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');

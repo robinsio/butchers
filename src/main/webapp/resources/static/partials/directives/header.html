@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Butchers Application</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ng-class="isActive('home')"><a href="#/home">Home</a></li>
+                <li ng-class="isActive('customer')"><a href="#/customer">Customer</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-if="user"><a href="#">My Account</a></li>
+                <li ng-if="!user"><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+

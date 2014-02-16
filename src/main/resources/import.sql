@@ -1,0 +1,18 @@
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jon Robins',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Steve Robins', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Nick Robins',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Walter White', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Saul Goodman', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jesse Pinkman','90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Tyrion Lannister',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Daenerys Targaryen', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jon Snow',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Cersei Lannister',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jorah Mormont', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Petyr Baelish',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Jaime Lannister',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Tywin Lannister', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Davos Seaworth',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Stannis Baratheon',   '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223224');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Margaery Tyrell', '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223225');
+INSERT INTO Customer(name, firstLineAddress, secondLineAddress, city, postcode, phoneNumber) VALUES ('Melisandre',  '90 Syntax Street', 'Java', 'Development', 'JA2 DEV', '010101223226');
