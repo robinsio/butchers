@@ -15,8 +15,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  */
 @EnableWebMvc
 @Configuration
-@Import(PersistenceConfig.class)
-@ComponentScan(basePackages = {"org.robins.io.butchers.web.controllers"})
+@Import({PersistenceConfig.class, SecurityConfig.class})
+@ComponentScan(basePackages = {"org.robins.io.butchers.web.controllers", "org.robins.io.butchers.web.security"})
 public class WebConfig extends WebMvcConfigurerAdapter
 {
     @Override
