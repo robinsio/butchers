@@ -68,4 +68,6 @@ public class PersistenceConfig
     public HibernateExceptionTranslator hibernateExceptionTranslator(){
         return new HibernateExceptionTranslator();
     }
+
+
 }

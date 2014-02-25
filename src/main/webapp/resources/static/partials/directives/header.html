@@ -10,6 +10,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li ng-if="user"><a href="#">My Account</a></li>
+                <li ng-if="user"><a ng-click="$root.logout()" href="#">Logout</a></li>
                 <li ng-if="!user"><a href="#">Login</a></li>
             </ul>
         </div>

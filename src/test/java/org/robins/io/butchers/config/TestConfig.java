@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Import;
  * ***********************************************************************
  */
 @Configuration
-@Import(TestPersistenceConfig.class)
-@ComponentScan(basePackages = {"org.robins.io.butchers.web.controllers"})
+@Import({TestPersistenceConfig.class, TestSecurityConfig.class})
+@ComponentScan(basePackages = {"org.robins.io.butchers.web.controllers", "org.robins.io.butchers.web.security"})
 public class TestConfig
 {
 }
